@@ -1,0 +1,91 @@
+* {
+  max-width: auto;
+  margin: auto;
+  box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Merriweather', serif;
+     color: darkgray;
+  }
+  header{
+    background-color: thistle;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  a{
+    font-size: 20px;
+    padding: 15px;
+  }
+  a:hover{
+    background-color: rgba(189, 6, 245, 0.479);
+  }
+  
+  .container {
+    width: 95%;
+    margin: 50px auto;
+    height: auto;
+  }
+ 
+  .card {
+    padding: 25px;
+    width: auto;
+    max-width: 400px;
+    height: 650px;
+    background-color: rgb(0, 60, 255);
+  }
+  .numberofuser{
+      font-size: 70px;
+  }
+  .charttitle{
+    border-bottom: darkgray 1px solid;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  table{
+    border-collapse: collapse;
+    font-size: 18px;
+    height: auto;
+    width: auto;
+ }
+ 
+  .tb-row{
+    border-bottom: rgba(255, 255, 255, 0.404) 1px solid;
+  }
+  .col2{
+    text-align: right;
+  }
+hr{
+  color: rgba(245, 248, 250, 0.336);
+  margin-right: -9%;
+  margin-left: -9%;
+}
+  .call_to_action_containter{
+    text-align: right;    
+    padding-top: 5px;
+    font-weight: 400;
+    margin-right: -10px;
+
+
+  }
+  
+
+  @media screen and (max-width: 1000px) {
+    .card {
+      width: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 620px) {
+    .container {
+      width: 100%;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  }
